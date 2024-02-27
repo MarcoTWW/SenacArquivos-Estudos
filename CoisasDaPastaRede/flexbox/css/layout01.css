@@ -1,0 +1,50 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: blanchedalmond;
+}
+
+.container {
+  width: 1024px;
+  min-height: 500px;
+  background-color: aquamarine;
+  align-self: center;
+}
+
+.cabecalho {
+  background-color: brown;
+  height: 120px;
+}
+
+.menusuperior {
+  background-color: coral;
+  height: 80px;
+}
+
+.conteudo {
+  background-color: darkolivegreen;
+  height: 500px;
+  display: flex;
+}
+
+.rodape {
+  background-color: dodgerblue;
+  height: 120px;
+}
+
+.coluna1 {
+  flex-grow: 4;
+  background-color: blue;
+}
+
+.coluna2 {
+  flex-grow: 1;
+  background-color: red;
+}
+

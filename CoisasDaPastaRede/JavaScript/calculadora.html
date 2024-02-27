@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vendor/bootstrap_5.3/css/bootstrap.min.css">
+    <title>Calculadora JavaScript</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <div class="card-header">
+                        SOMAR NÚMEROS
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label>Número 01</label>
+                            <input id="numero1" type="number" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>Número 02</label>
+                            <input id="numero2" type="number" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>Resultado</label>
+                            <input id="resultado" readonly type="number" class="form-control">
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button onclick="somar()" class="btn btn-primary">Somar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="vendor/bootstrap_5.3/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function somar() {
+            document.getElementById('resultado').value = parseInt(document.getElementById('numero1').value) + parseInt(document.getElementById('numero2').value)
+        }
+    </script>
+</body>
+
+</html>

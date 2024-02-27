@@ -1,0 +1,15 @@
+cls - limpa a tela
+mkdir - cria uma pasta
+cd \  - vai pra pasta raiz, vulgo disco local
+cd "file name here" - abre uma pasta
+
+
+
+git --help  - auto explicativo
+git init    - novo repositorio git
+git status  - te diz em qual branch você está e te diz quantos commits ja existiram/existem
+git add     - coloca o arquivo especificado na area do git/faz com que ele seja rastreado
+git add .   - faz a mesma coisa que o add, mas adiciona todos os arquivos de uma pasta de uma vez só
+git commit  - manda os arquivos pro "estagio de pré-envio", classico commit
+git push    - você sabe oque significa, bobão (manda os commits pro arquivo main no repositorio)
+git branch  - lista, adiciona ou remove uma branch

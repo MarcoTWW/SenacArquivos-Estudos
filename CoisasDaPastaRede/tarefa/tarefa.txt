@@ -1,0 +1,24 @@
+Para que serve uma chave primária?
+	Serve como um identificador único de uma tabela (é basicamente um número identificador de cada              novo registro do banco de dados).
+
+Para que serve uma chave estrangeira?
+	Permite a referência de registros (chaves primarias ou dados comuns) de outras tabelas (tabelas             guardam as informações inseridas no banco de dados).
+
+O que é uma constraint? Cite exemplos?
+	Atributos/regras aplicadas aos dados de tabelas do banco de dados para que eles funcionem do jeito          desejado;
+	NOT NULL (o campo não pode estar vazio) 
+	UNIQUE (o campo é único)
+	CHECK (checa se o dado é algo específico)
+	PRIMARY KEY (já expliquei)
+	FOREIGN KEY (já expliquei)
+
+Em quais casos posso usar char e varchar?
+	CHAR: Em casos onde sabemos exatamente quais dados serão armazenados.
+
+	VARCHAR: Em casos onde não sabemos exatamente o que vamos armazenar.
+	
+Quais tipos de "Int" existem no mysql?
+	TinyInt, SmallInt, MediumInt , Int e BigInt.
+
+
+

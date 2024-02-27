@@ -1,0 +1,10 @@
+<select name="genero" id="genero" class="form-select">
+          <option value="">Escolha uma opcão</option>
+          <?php while ($rowGenero = mysqli_fetch_assoc($queryGenero)) { ?>
+
+            <option value="<?php echo $rowGenero['pk_genero'] ?>" <?php echo $row['fk_genero'] == $rowGenero['pk_genero'] ? "selected" : "" ?>>
+              <?php echo $rowGenero['genero'] ?>
+            </option>
+
+          <?php } ?>
+        </select>

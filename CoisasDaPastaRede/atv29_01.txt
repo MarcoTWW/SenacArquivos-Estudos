@@ -1,0 +1,5 @@
+SaaS - Sistema do próprio Xbox
+PaaS - Xbox Live/Game Pass
+IaaS - Console Xbox
+DaaS - Xcloud/Jogos por streaming via internet
+XaaS - N/A

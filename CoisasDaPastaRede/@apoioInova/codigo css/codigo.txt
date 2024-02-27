@@ -1,0 +1,8 @@
+Codigo para pagina de blog e post:
+
+
+
+.site-content__wrap.container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

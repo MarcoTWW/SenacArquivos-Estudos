@@ -1,0 +1,78 @@
+body {
+  margin: 0px;
+  padding: 20px;
+}
+
+main {
+  width: 100%;
+  background-color: floralwhite;
+}
+
+.container {
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header1 {
+  width: 100%;
+  height: 100px;
+  padding-top: 10px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  background-color: lightblue;
+}
+
+.middle {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+}
+
+nav {
+  flex-grow: 1;
+  background-color: darkblue;
+}
+
+section {
+  padding: 15px 25px 15px 25px;
+  height: 570px;
+  margin: 0 15px 0 15px;
+  flex-grow: 2;
+  background-color: darkblue;
+  align-items: center;
+  justify-content: center;
+}
+
+section header {
+  background-color: blue;
+  height: 100px;
+}
+
+section article {
+  background-color: blue;
+  height: 200px;
+}
+
+section footer {
+  background-color: blue;
+  height: 100px;
+}
+
+aside {
+  flex-grow: 1;
+  background-color: darkblue;
+}
+
+footer {
+    height: 100px;
+    background-color: lightblue;
+    margin-top: 15px;
+    text-align: center;
+}
